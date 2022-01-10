@@ -1,0 +1,331 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/*HEADER-START*/
+header {
+    width: 100%;
+    background-color: #121E1E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+header .assets-menu ul {
+    display: flex;
+}
+header .assets-menu a {
+    padding: 0 30px;
+    color: #ddd;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+header .assets-menu a:hover {
+    color: #fff;
+}
+header .logo-menu {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #fff;
+    cursor: pointer;
+}
+/*HEADER-END*/
+
+
+/*BANNER-CENTER-START*/
+#banner-center {
+    width: 100%;
+    background-image: url(bg-car.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.button-banner {
+    margin: auto;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    position: relative;
+    bottom: 30px;
+}
+/*BANNER-CENTER-END*/
+
+/*ASSETS-BANNER(SELEÇÃO DE CARROSSEL BANNER)*/
+.assets-banner {
+    margin: auto;
+    width: 140px;
+}
+.b1, .b2, .b3 {
+    background-color: #121E1E;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+/*ASSETS-BANNER(SELEÇÃO DE CARROSSEL BANNER)*/
+
+/*SECTION-INFO_TEXT-START*/
+#info-text {
+    width: 100%;
+}
+.info-control {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 35px;
+    background-color: #fff;
+}
+.info-left {
+    width: 50%;
+    text-align: center;
+    padding: 20px 20px;
+}
+.info-right {
+    width: 50%;
+    text-align: center;
+    padding: 20px 20px;
+}
+.info-right h1 {
+    padding: 25px 0;
+    color: #121E1E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+.info-right p {
+    color: #121E1E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+/*SECTION-INFO_TEXT-END*/
+
+
+/*SECTION-INFO_ASSETS-START*/
+#info-assets {
+    width: 100%;
+    background-color: #fff;
+}
+.info-assets-control {
+    display: flex;
+    justify-content: space-around;
+    background-color: #121E1E;
+    padding: 35px 35px;
+}
+.info-assets-left {
+    width: 50%;
+    text-align: center;
+    padding: 20px 20px;
+}
+.info-assets-left h1 {
+    padding: 25px 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+.info-assets-left p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.info-assets-left img {
+    height: 100%;
+}
+.info-assets-left {
+    width: 50%;
+    text-align: center;
+}
+.info-assets-right {
+    width: 50%;
+    text-align: center;
+    padding: 20px 20px;
+}
+.input-img img {
+    height: 100%;
+}
+/*SECTION-INFO_ASSETS-START*/
+
+/*SECTION-CONTACT-START*/
+#contact {
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input-control {
+    text-align: center;
+    padding: 20px 20px;
+}
+.input-control h1 {
+    color: #121E1E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
+}
+form {
+    margin: 0%;
+    padding: 0%;
+}
+.input-control input {
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #121E1E;
+}
+.input-control button {
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    margin: 10px 0;
+    border-radius: 15px;
+    background-color: #121E1E;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+/*SECTION-CONTACT-END*/
+
+/*FOOTER-START*/
+footer {
+    width: 100%;
+    background-color: #121E1E;
+    padding: 50px 0; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .contatos-img img {
+    width: 50px;
+    height: 50px;
+}
+
+footer .contatos-footer {
+    display: flex;
+}
+footer .contatos-footer a {
+    padding: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.2s;
+}
+footer .contatos-footer a:hover {
+    color: #0000ff;
+}
+/*FOOTER-END*/
+
+
+/*MEDIA-START*/
+@media only screen and (max-width:900px) {
+   footer {
+       font-size: 0.8em;
+   }
+   footer .contatos-img img{
+       width: 30px;
+       height: 30px;
+   }
+   .info-right h1 {
+       font-size: 1.8em;
+   }
+   .info-right p {
+       font-size: 1em;
+   }
+   .info-assets-left h1 {
+       font-size: 1.8em;
+   }
+   .info-assets-left p {
+       font-size: 1em;
+   }
+   .contatos-img img {
+       width: 20px;
+       height: 20px;
+   }
+}
+
+@media only screen and (max-width:710px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .assets-menu {
+        display: none;
+    }
+    #contact {
+        flex-direction: column;
+    }
+    .input-control {
+        padding: 30px 0;
+    }
+    .info-right h1 {
+        font-size: 1.5em;
+    }
+    .info-right p {
+        font-size: 0.8em;
+    }
+    .info-assets-left h1 {
+        font-size: 1.5em;
+    }
+    .info-assets-left p {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width:472px) {
+    footer {
+        font-size: 0.6em;
+    }
+    .info-right h1 {
+        font-size: 1em;
+    }
+    .info-right p {
+        font-size: 0.7em;
+    }
+    .info-assets-left h1 {
+        font-size: 1em;
+    }
+    .info-assets-left p {
+        font-size: 0.7em;
+    }
+    .info-assets-right img {
+        height: 200px;
+    }
+    .info-left img {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width:434px) {
+
+    .info-right h1 {
+        font-size: 0.8em;
+    }
+    .info-right p {
+        font-size: 0.6em;
+    }
+    .info-assets-left h1 {
+        font-size: 0.8em;
+    }
+    .info-assets-left p {
+        font-size: 0.6em;
+    }
+} 
+/*MEDIA-END*/
+
+
+
+
+
